@@ -1,6 +1,6 @@
 {
   "name": "sortby",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Creates sorting functions",
   "main": "src/index.mjs",
   "module": "src/index.mjs",
