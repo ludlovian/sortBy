@@ -6,7 +6,7 @@ export default function sortBy (name, desc) {
   return sortFunc
 
   function sortFunc (a, b) {
-    return (parent && parent(a, b)) || direction * compare(a, b, fn)
+    return (parent && parent(a, b)) || direction * compare(a, b, fn) || 0
   }
 
   function compare (a, b, fn) {

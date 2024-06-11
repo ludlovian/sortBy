@@ -7,7 +7,7 @@ Single default export
 
 ### sortBy
 ```
-import sortBy from 'sortby'
+import sortBy from '@ludlovian/sortby'
 
 arr.sort(sortBy(selector, desc?))
 ```

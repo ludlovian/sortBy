@@ -1,5 +1,5 @@
 {
-  "name": "sortby",
+  "name": "@ludlovian/sortby",
   "version": "1.0.1",
   "description": "Creates sorting functions",
   "main": "src/index.mjs",
@@ -9,7 +9,7 @@
     "clean": "rm -rf coverage/ node_modules/.cache/",
     "format": "prettier-standard {src,test}/*.{m,}js",
     "lint": "standard {src,test}/*.{m,}js|snazzy",
-    "test": "c8 uvu",
+    "test": "c8 node --test",
     "coverage": "npm run test && c8 report --reporter=html && sirv coverage/ -H 0.0.0.0 -p 8000"
   },
   "repository": {
@@ -21,8 +21,5 @@
   "bugs": {
     "url": "https://github.com/ludlovian/sortby/issues"
   },
-  "homepage": "https://github.com/ludlovian/sortby#readme",
-  "devDependencies": {
-    "uvu": "^0.5.6"
-  }
+  "homepage": "https://github.com/ludlovian/sortby#readme"
 }
